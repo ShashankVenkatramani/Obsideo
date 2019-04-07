@@ -8,7 +8,8 @@
 
 import UIKit
 import CoreData
-
+import Firebase
+import FirebaseDatabase
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -17,6 +18,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        FirebaseApp.configure()
+        var ref:DatabaseReference = Database.database().reference()
+        ref.child("memes").setValue("memes")
         return true
     }
 
