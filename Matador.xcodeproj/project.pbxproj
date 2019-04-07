@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D56BF5572259A2730047C9AA /* RegisterSignIngViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56BF5562259A2730047C9AA /* RegisterSignIngViewController.swift */; };
 		D5A6B39922598FAF002EA5F5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5A6B39822598FAF002EA5F5 /* GoogleService-Info.plist */; };
 		D5CD755322598CBF006DD3CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CD755222598CBF006DD3CA /* AppDelegate.swift */; };
-		D5CD755522598CBF006DD3CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CD755422598CBF006DD3CA /* ViewController.swift */; };
 		D5CD755822598CBF006DD3CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5CD755622598CBF006DD3CA /* Main.storyboard */; };
 		D5CD755B22598CC3006DD3CA /* Matador.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5CD755922598CC3006DD3CA /* Matador.xcdatamodeld */; };
 		D5CD755D22598CC4006DD3CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5CD755C22598CC4006DD3CA /* Assets.xcassets */; };
@@ -21,10 +21,10 @@
 		6CAA06B9379221FBB0C70398 /* Pods_Matador.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Matador.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		89C230F2FE68A86EC252208A /* Pods-Matador.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matador.release.xcconfig"; path = "Pods/Target Support Files/Pods-Matador/Pods-Matador.release.xcconfig"; sourceTree = "<group>"; };
 		AF292404CC8C1C167EE973AC /* Pods-Matador.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Matador.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Matador/Pods-Matador.debug.xcconfig"; sourceTree = "<group>"; };
+		D56BF5562259A2730047C9AA /* RegisterSignIngViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterSignIngViewController.swift; sourceTree = "<group>"; };
 		D5A6B39822598FAF002EA5F5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D5CD754F22598CBF006DD3CA /* Matador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matador.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CD755222598CBF006DD3CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5CD755422598CBF006DD3CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D5CD755722598CBF006DD3CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5CD755A22598CC3006DD3CA /* Matador.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Matador.xcdatamodel; sourceTree = "<group>"; };
 		D5CD755C22598CC4006DD3CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,7 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				D5CD755222598CBF006DD3CA /* AppDelegate.swift */,
-				D5CD755422598CBF006DD3CA /* ViewController.swift */,
+				D56BF5562259A2730047C9AA /* RegisterSignIngViewController.swift */,
 				D5CD755622598CBF006DD3CA /* Main.storyboard */,
 				D5CD755C22598CC4006DD3CA /* Assets.xcassets */,
 				D5CD755E22598CC4006DD3CA /* LaunchScreen.storyboard */,
@@ -214,7 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5CD755B22598CC3006DD3CA /* Matador.xcdatamodeld in Sources */,
-				D5CD755522598CBF006DD3CA /* ViewController.swift in Sources */,
+				D56BF5572259A2730047C9AA /* RegisterSignIngViewController.swift in Sources */,
 				D5CD755322598CBF006DD3CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
