@@ -22,12 +22,12 @@ class Block:
         )
 
     def calculate_checksum(self):
+        print(self._prev_block.checksum)
         data = '|'.join([
             str(self.timestamp),
             self.data,
             self._prev_block.checksum,
         ])
-        data += self.NONCE_SYMBOL * self.nonce
 
         return sha256(bytes(data, 'utf-8')).hexdigest()
 
@@ -61,8 +61,7 @@ class Chain:
 
         return genesis_block
 
-    @staticmethod
-    def _get_last_block():
+    def _get_last_block(self):
         return self._chain[-1]
 
     @staticmethod
