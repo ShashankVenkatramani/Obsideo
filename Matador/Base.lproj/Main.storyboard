@@ -102,6 +102,10 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="CNG-A6-Rd2"/>
                     </view>
+                    <connections>
+                        <outlet property="amountField" destination="QzN-7d-VF4" id="YNR-nV-v91"/>
+                        <outlet property="targetField" destination="UuD-Jj-i7d" id="FFx-iF-boK"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wwX-sD-dBL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
