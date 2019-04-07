@@ -160,9 +160,9 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Background" width="417" height="899"/>
-        <image name="Feed View" width="415" height="896"/>
-        <image name="SignUpBackground" width="417" height="899"/>
+        <image name="Background" width="16" height="16"/>
+        <image name="Feed View" width="16" height="16"/>
+        <image name="SignUpBackground" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="PN3-B3-cYJ"/>
