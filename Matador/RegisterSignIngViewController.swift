@@ -18,13 +18,19 @@ class RegisterSignIngViewController: UIViewController {
     
     @IBAction func signUpPressed(_ sender: Any) {
         Auth.auth().createUser(withEmail: email.text!, password: password.text!) { (user, error) in
-            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "PostTransaction") as! PostTransactionViewController
+            vc.uid = (user?.user.uid)!
+            self.present(vc, animated: true, completion: nil)
         }
     }
     
     @IBAction func SignInPressed(_ sender: Any) {
         Auth.auth().signIn(withEmail: email.text!, password: password.text!) { (user, error) in
-            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            let vc = storyboard.instantiateViewController(withIdentifier: "PostTransaction") as! PostTransactionViewController
+            vc.uid = (user?.user.uid)!
+            self.present(vc, animated: true, completion: nil)
         }
     }
     
