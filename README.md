@@ -1,3 +1,5 @@
+**For pictures, scroll to the bottom!**
+
 ## Inspiration
 Our goal is to both simplify the process of transferring money while also respecting the privacy and right to anonymity of the users. We saw a lot of issues with Venmo, including their huge lack of security and fraud problems, and wanted to change that.
 
