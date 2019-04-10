@@ -51,4 +51,13 @@ We also tried to implement gossip protocol, but it proved to be insanely difficu
 - Implement gossip protocol
 - Add website integration
 
-![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/795/274/datas/gallery.jpg0)
+Authentication screen
+
+![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/795/274/datas/gallery.jpg)
+
+Transactions home screen
+
+![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/795/294/datas/gallery.jpg)
+
+Showcase website
+![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/795/295/datas/gallery.jpg)
