@@ -51,4 +51,4 @@ We also tried to implement gossip protocol, but it proved to be insanely difficu
 - Implement gossip protocol
 - Add website integration
 
-![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/795/274/datas/gallery.jpg0
+![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/795/274/datas/gallery.jpg0)
